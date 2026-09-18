@@ -1,0 +1,8 @@
+{
+  "zip_extract": true,
+  "isolated_claude_and_codex_install": true,
+  "installed_cli_help": true,
+  "qmd_bridge_included": true,
+  "no_runtime_or_user_data": true,
+  "actual_user_profiles_modified": false
+}

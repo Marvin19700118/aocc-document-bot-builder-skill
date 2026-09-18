@@ -1,0 +1,4 @@
+interface:
+  display_name: "Document Bot Wiki"
+  short_description: "文件轉 Markdown、QMD 全文搜尋與有來源的 LLM Wiki"
+  default_prompt: "Use $document-bot-wiki to manage my local document library."

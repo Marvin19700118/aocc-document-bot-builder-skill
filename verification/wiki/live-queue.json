@@ -1,0 +1,231 @@
+{
+  "source_adapter": "generated fixture manifest, not host UI attachments",
+  "passed": true,
+  "two_background_workers_started": true,
+  "D_added_before_A_completed": true,
+  "seconds": 10.0,
+  "receipts": [
+    {
+      "status": "queued",
+      "name": "queue-041bc7a0-A.txt",
+      "doc_id": "fb88d36e6b134293a8db4273f5bd37f9",
+      "job_id": "35f285bde81949ee803775762c6cb2a6",
+      "position": 1,
+      "path": "<PROJECT_ROOT>\\.test-runtime\\wiki-queue-da54fdb1caf64273b6b738a161a09cf2\\workspace\\bot documents\\fb88d36e6b134293a8db4273f5bd37f9\\queue-041bc7a0-A.txt"
+    },
+    {
+      "status": "queued",
+      "name": "queue-041bc7a0-B.txt",
+      "doc_id": "fb2c4a86cbcf42d4b169fa0669c45577",
+      "job_id": "621daaa494114c0aa70f7d3dbb3c0174",
+      "position": 2,
+      "path": "<PROJECT_ROOT>\\.test-runtime\\wiki-queue-da54fdb1caf64273b6b738a161a09cf2\\workspace\\bot documents\\fb2c4a86cbcf42d4b169fa0669c45577\\queue-041bc7a0-B.txt"
+    },
+    {
+      "status": "queued",
+      "name": "queue-041bc7a0-C.txt",
+      "doc_id": "a470e660950d4ea2b4413843497aeec8",
+      "job_id": "b9c668f1a6244191a276b136a4fec833",
+      "position": 3,
+      "path": "<PROJECT_ROOT>\\.test-runtime\\wiki-queue-da54fdb1caf64273b6b738a161a09cf2\\workspace\\bot documents\\a470e660950d4ea2b4413843497aeec8\\queue-041bc7a0-C.txt"
+    },
+    {
+      "status": "queued",
+      "name": "queue-041bc7a0-D.txt",
+      "doc_id": "e9a862669cb049d2afdde5d4fb055505",
+      "job_id": "86270c93917946a6b9315d36a31d2388",
+      "position": 4,
+      "path": "<PROJECT_ROOT>\\.test-runtime\\wiki-queue-da54fdb1caf64273b6b738a161a09cf2\\workspace\\bot documents\\e9a862669cb049d2afdde5d4fb055505\\queue-041bc7a0-D.txt"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "kind": "queued",
+      "job_id": "35f285bde81949ee803775762c6cb2a6",
+      "doc_id": "fb88d36e6b134293a8db4273f5bd37f9",
+      "payload": {
+        "name": "queue-041bc7a0-A.txt",
+        "position": 1
+      },
+      "created": 1789705011.2887294
+    },
+    {
+      "id": 2,
+      "kind": "queued",
+      "job_id": "621daaa494114c0aa70f7d3dbb3c0174",
+      "doc_id": "fb2c4a86cbcf42d4b169fa0669c45577",
+      "payload": {
+        "name": "queue-041bc7a0-B.txt",
+        "position": 2
+      },
+      "created": 1789705011.3521132
+    },
+    {
+      "id": 3,
+      "kind": "queued",
+      "job_id": "b9c668f1a6244191a276b136a4fec833",
+      "doc_id": "a470e660950d4ea2b4413843497aeec8",
+      "payload": {
+        "name": "queue-041bc7a0-C.txt",
+        "position": 3
+      },
+      "created": 1789705011.4012191
+    },
+    {
+      "id": 4,
+      "kind": "indexing",
+      "job_id": "35f285bde81949ee803775762c6cb2a6",
+      "doc_id": "fb88d36e6b134293a8db4273f5bd37f9",
+      "payload": {
+        "name": "queue-041bc7a0-A.txt"
+      },
+      "created": 1789705012.6256006
+    },
+    {
+      "id": 5,
+      "kind": "queued",
+      "job_id": "86270c93917946a6b9315d36a31d2388",
+      "doc_id": "e9a862669cb049d2afdde5d4fb055505",
+      "payload": {
+        "name": "queue-041bc7a0-D.txt",
+        "position": 4
+      },
+      "created": 1789705012.721576
+    },
+    {
+      "id": 6,
+      "kind": "indexed",
+      "job_id": "35f285bde81949ee803775762c6cb2a6",
+      "doc_id": "fb88d36e6b134293a8db4273f5bd37f9",
+      "payload": {
+        "name": "queue-041bc7a0-A.txt",
+        "chunks": 1,
+        "wiki_pending": true,
+        "waiting": 3,
+        "seconds": 0.766,
+        "warnings": []
+      },
+      "created": 1789705013.3917418
+    },
+    {
+      "id": 7,
+      "kind": "completed",
+      "job_id": "35f285bde81949ee803775762c6cb2a6",
+      "doc_id": "fb88d36e6b134293a8db4273f5bd37f9",
+      "payload": {
+        "name": "queue-041bc7a0-A.txt",
+        "wiki_completed": true
+      },
+      "created": 1789705014.3794603
+    },
+    {
+      "id": 8,
+      "kind": "indexing",
+      "job_id": "621daaa494114c0aa70f7d3dbb3c0174",
+      "doc_id": "fb2c4a86cbcf42d4b169fa0669c45577",
+      "payload": {
+        "name": "queue-041bc7a0-B.txt"
+      },
+      "created": 1789705014.4040203
+    },
+    {
+      "id": 9,
+      "kind": "indexed",
+      "job_id": "621daaa494114c0aa70f7d3dbb3c0174",
+      "doc_id": "fb2c4a86cbcf42d4b169fa0669c45577",
+      "payload": {
+        "name": "queue-041bc7a0-B.txt",
+        "chunks": 1,
+        "wiki_pending": true,
+        "waiting": 2,
+        "seconds": 1.14,
+        "warnings": []
+      },
+      "created": 1789705015.5435011
+    },
+    {
+      "id": 10,
+      "kind": "completed",
+      "job_id": "621daaa494114c0aa70f7d3dbb3c0174",
+      "doc_id": "fb2c4a86cbcf42d4b169fa0669c45577",
+      "payload": {
+        "name": "queue-041bc7a0-B.txt",
+        "wiki_completed": true
+      },
+      "created": 1789705016.478091
+    },
+    {
+      "id": 11,
+      "kind": "indexing",
+      "job_id": "b9c668f1a6244191a276b136a4fec833",
+      "doc_id": "a470e660950d4ea2b4413843497aeec8",
+      "payload": {
+        "name": "queue-041bc7a0-C.txt"
+      },
+      "created": 1789705016.5545566
+    },
+    {
+      "id": 12,
+      "kind": "indexed",
+      "job_id": "b9c668f1a6244191a276b136a4fec833",
+      "doc_id": "a470e660950d4ea2b4413843497aeec8",
+      "payload": {
+        "name": "queue-041bc7a0-C.txt",
+        "chunks": 1,
+        "wiki_pending": true,
+        "waiting": 1,
+        "seconds": 1.032,
+        "warnings": []
+      },
+      "created": 1789705017.5856032
+    },
+    {
+      "id": 13,
+      "kind": "completed",
+      "job_id": "b9c668f1a6244191a276b136a4fec833",
+      "doc_id": "a470e660950d4ea2b4413843497aeec8",
+      "payload": {
+        "name": "queue-041bc7a0-C.txt",
+        "wiki_completed": true
+      },
+      "created": 1789705018.5306392
+    },
+    {
+      "id": 14,
+      "kind": "indexing",
+      "job_id": "86270c93917946a6b9315d36a31d2388",
+      "doc_id": "e9a862669cb049d2afdde5d4fb055505",
+      "payload": {
+        "name": "queue-041bc7a0-D.txt"
+      },
+      "created": 1789705018.5963767
+    },
+    {
+      "id": 15,
+      "kind": "indexed",
+      "job_id": "86270c93917946a6b9315d36a31d2388",
+      "doc_id": "e9a862669cb049d2afdde5d4fb055505",
+      "payload": {
+        "name": "queue-041bc7a0-D.txt",
+        "chunks": 1,
+        "wiki_pending": true,
+        "waiting": 0,
+        "seconds": 1.11,
+        "warnings": []
+      },
+      "created": 1789705019.7110643
+    },
+    {
+      "id": 16,
+      "kind": "completed",
+      "job_id": "86270c93917946a6b9315d36a31d2388",
+      "doc_id": "e9a862669cb049d2afdde5d4fb055505",
+      "payload": {
+        "name": "queue-041bc7a0-D.txt",
+        "wiki_completed": true
+      },
+      "created": 1789705021.780392
+    }
+  ]
+}
