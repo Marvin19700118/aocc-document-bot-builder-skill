@@ -1,5 +1,7 @@
 # AOCC Document Bot Builder Skill
 
+文件：[第一版完整規格](spec.md) · [驗證報告](verification/REPORT.md)
+
 可安裝在 Claude Code 與 Codex 的本機文件知識庫 skill。上傳聊天附件後執行 `add`，文件保存於已登記工作目錄的 `bot documents`，依 FIFO 順序建立索引、向量與預設開啟的知識圖譜。每份文件向量完成後立即由目前助手回報，再接續圖譜與下一份文件。
 
 ## 安裝
