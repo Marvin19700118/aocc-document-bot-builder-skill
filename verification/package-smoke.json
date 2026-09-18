@@ -1,0 +1,10 @@
+{
+  "archive_test": "passed",
+  "installed_hosts": [
+    "claude",
+    "codex"
+  ],
+  "cli_help": "passed for both copies",
+  "forbidden_runtime_files": "none",
+  "actual_user_profiles_modified": false
+}

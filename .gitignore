@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.test-runtime/
+.test-data/
+dist/
+*.egg-info/
+.env
+.env.*
+!.env.example
+bot documents/

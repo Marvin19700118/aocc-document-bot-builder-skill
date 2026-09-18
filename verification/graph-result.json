@@ -1,0 +1,27 @@
+{
+  "status": "ready",
+  "entities": 5,
+  "relations": 4,
+  "sources": [
+    {
+      "chunk_id": 29,
+      "evidence": "星河公司開發 Aurora。",
+      "locator": "{\"type\": \"docx\", \"paragraph\": 2, \"section\": \"Aurora 產品規格\", \"char_start\": 0, \"char_end\": 41}"
+    },
+    {
+      "chunk_id": 29,
+      "evidence": "Aurora 的資料匯出格式為 JSON 與 CSV。",
+      "locator": "{\"type\": \"docx\", \"paragraph\": 2, \"section\": \"Aurora 產品規格\", \"char_start\": 0, \"char_end\": 41}"
+    },
+    {
+      "chunk_id": 29,
+      "evidence": "Aurora 的資料匯出格式為 JSON 與 CSV。",
+      "locator": "{\"type\": \"docx\", \"paragraph\": 2, \"section\": \"Aurora 產品規格\", \"char_start\": 0, \"char_end\": 41}"
+    },
+    {
+      "chunk_id": 30,
+      "evidence": "Aurora 客服電話為 02-5555-0100。",
+      "locator": "{\"type\": \"docx\", \"paragraph\": 3, \"section\": \"Aurora 產品規格\", \"char_start\": 0, \"char_end\": 26}"
+    }
+  ]
+}

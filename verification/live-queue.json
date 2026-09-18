@@ -1,0 +1,231 @@
+{
+  "source_adapter": "generated fixture manifest, not host UI attachments",
+  "passed": true,
+  "two_background_workers_started": true,
+  "D_added_before_A_completed": true,
+  "seconds": 59.71900000004098,
+  "receipts": [
+    {
+      "status": "queued",
+      "name": "queue-50a5980d-A.txt",
+      "doc_id": "c23a357a02024ecca60371641ce35d34",
+      "job_id": "e7fed957a7dd4f888437c4d220aadc12",
+      "position": 1,
+      "path": "<PROJECT_ROOT>\\.test-runtime\\live\\workspace\\bot documents\\c23a357a02024ecca60371641ce35d34\\queue-50a5980d-A.txt"
+    },
+    {
+      "status": "queued",
+      "name": "queue-50a5980d-B.txt",
+      "doc_id": "97bf95007bd4419685f1ae326f600a8f",
+      "job_id": "cf0b1db7d6e24984b3387f0a99a62369",
+      "position": 2,
+      "path": "<PROJECT_ROOT>\\.test-runtime\\live\\workspace\\bot documents\\97bf95007bd4419685f1ae326f600a8f\\queue-50a5980d-B.txt"
+    },
+    {
+      "status": "queued",
+      "name": "queue-50a5980d-C.txt",
+      "doc_id": "6098f5e7bc6b4df69807320ee55e0918",
+      "job_id": "2a6f924b55b54b8bb9bf87618bd54b47",
+      "position": 3,
+      "path": "<PROJECT_ROOT>\\.test-runtime\\live\\workspace\\bot documents\\6098f5e7bc6b4df69807320ee55e0918\\queue-50a5980d-C.txt"
+    },
+    {
+      "status": "queued",
+      "name": "queue-50a5980d-D.txt",
+      "doc_id": "5dd3077d9afd4a08b04fa2b5e801c6ed",
+      "job_id": "c5a932dec83f461aaedd97857fb3fb81",
+      "position": 4,
+      "path": "<PROJECT_ROOT>\\.test-runtime\\live\\workspace\\bot documents\\5dd3077d9afd4a08b04fa2b5e801c6ed\\queue-50a5980d-D.txt"
+    }
+  ],
+  "events": [
+    {
+      "id": 36,
+      "kind": "queued",
+      "job_id": "e7fed957a7dd4f888437c4d220aadc12",
+      "doc_id": "c23a357a02024ecca60371641ce35d34",
+      "payload": {
+        "name": "queue-50a5980d-A.txt",
+        "position": 1
+      },
+      "created": 1789695697.705056
+    },
+    {
+      "id": 37,
+      "kind": "queued",
+      "job_id": "cf0b1db7d6e24984b3387f0a99a62369",
+      "doc_id": "97bf95007bd4419685f1ae326f600a8f",
+      "payload": {
+        "name": "queue-50a5980d-B.txt",
+        "position": 2
+      },
+      "created": 1789695697.7865796
+    },
+    {
+      "id": 38,
+      "kind": "queued",
+      "job_id": "2a6f924b55b54b8bb9bf87618bd54b47",
+      "doc_id": "6098f5e7bc6b4df69807320ee55e0918",
+      "payload": {
+        "name": "queue-50a5980d-C.txt",
+        "position": 3
+      },
+      "created": 1789695697.8445811
+    },
+    {
+      "id": 39,
+      "kind": "indexing",
+      "job_id": "e7fed957a7dd4f888437c4d220aadc12",
+      "doc_id": "c23a357a02024ecca60371641ce35d34",
+      "payload": {
+        "name": "queue-50a5980d-A.txt"
+      },
+      "created": 1789695699.813334
+    },
+    {
+      "id": 40,
+      "kind": "queued",
+      "job_id": "c5a932dec83f461aaedd97857fb3fb81",
+      "doc_id": "5dd3077d9afd4a08b04fa2b5e801c6ed",
+      "payload": {
+        "name": "queue-50a5980d-D.txt",
+        "position": 4
+      },
+      "created": 1789695700.0117023
+    },
+    {
+      "id": 41,
+      "kind": "indexed",
+      "job_id": "e7fed957a7dd4f888437c4d220aadc12",
+      "doc_id": "c23a357a02024ecca60371641ce35d34",
+      "payload": {
+        "name": "queue-50a5980d-A.txt",
+        "chunks": 1,
+        "graph_pending": true,
+        "waiting": 3,
+        "seconds": 57.078,
+        "warnings": []
+      },
+      "created": 1789695756.8886487
+    },
+    {
+      "id": 42,
+      "kind": "completed",
+      "job_id": "e7fed957a7dd4f888437c4d220aadc12",
+      "doc_id": "c23a357a02024ecca60371641ce35d34",
+      "payload": {
+        "name": "queue-50a5980d-A.txt",
+        "graph_completed": true
+      },
+      "created": 1789695756.9071367
+    },
+    {
+      "id": 43,
+      "kind": "indexing",
+      "job_id": "cf0b1db7d6e24984b3387f0a99a62369",
+      "doc_id": "97bf95007bd4419685f1ae326f600a8f",
+      "payload": {
+        "name": "queue-50a5980d-B.txt"
+      },
+      "created": 1789695756.9101346
+    },
+    {
+      "id": 44,
+      "kind": "indexed",
+      "job_id": "cf0b1db7d6e24984b3387f0a99a62369",
+      "doc_id": "97bf95007bd4419685f1ae326f600a8f",
+      "payload": {
+        "name": "queue-50a5980d-B.txt",
+        "chunks": 1,
+        "graph_pending": true,
+        "waiting": 2,
+        "seconds": 0.063,
+        "warnings": []
+      },
+      "created": 1789695756.977088
+    },
+    {
+      "id": 45,
+      "kind": "completed",
+      "job_id": "cf0b1db7d6e24984b3387f0a99a62369",
+      "doc_id": "97bf95007bd4419685f1ae326f600a8f",
+      "payload": {
+        "name": "queue-50a5980d-B.txt",
+        "graph_completed": true
+      },
+      "created": 1789695757.15389
+    },
+    {
+      "id": 46,
+      "kind": "indexing",
+      "job_id": "2a6f924b55b54b8bb9bf87618bd54b47",
+      "doc_id": "6098f5e7bc6b4df69807320ee55e0918",
+      "payload": {
+        "name": "queue-50a5980d-C.txt"
+      },
+      "created": 1789695757.2131517
+    },
+    {
+      "id": 47,
+      "kind": "indexed",
+      "job_id": "2a6f924b55b54b8bb9bf87618bd54b47",
+      "doc_id": "6098f5e7bc6b4df69807320ee55e0918",
+      "payload": {
+        "name": "queue-50a5980d-C.txt",
+        "chunks": 1,
+        "graph_pending": true,
+        "waiting": 1,
+        "seconds": 0.14,
+        "warnings": []
+      },
+      "created": 1789695757.3542604
+    },
+    {
+      "id": 48,
+      "kind": "completed",
+      "job_id": "2a6f924b55b54b8bb9bf87618bd54b47",
+      "doc_id": "6098f5e7bc6b4df69807320ee55e0918",
+      "payload": {
+        "name": "queue-50a5980d-C.txt",
+        "graph_completed": true
+      },
+      "created": 1789695757.4306724
+    },
+    {
+      "id": 49,
+      "kind": "indexing",
+      "job_id": "c5a932dec83f461aaedd97857fb3fb81",
+      "doc_id": "5dd3077d9afd4a08b04fa2b5e801c6ed",
+      "payload": {
+        "name": "queue-50a5980d-D.txt"
+      },
+      "created": 1789695757.5853882
+    },
+    {
+      "id": 50,
+      "kind": "indexed",
+      "job_id": "c5a932dec83f461aaedd97857fb3fb81",
+      "doc_id": "5dd3077d9afd4a08b04fa2b5e801c6ed",
+      "payload": {
+        "name": "queue-50a5980d-D.txt",
+        "chunks": 1,
+        "graph_pending": true,
+        "waiting": 0,
+        "seconds": 0.078,
+        "warnings": []
+      },
+      "created": 1789695757.662222
+    },
+    {
+      "id": 51,
+      "kind": "completed",
+      "job_id": "c5a932dec83f461aaedd97857fb3fb81",
+      "doc_id": "5dd3077d9afd4a08b04fa2b5e801c6ed",
+      "payload": {
+        "name": "queue-50a5980d-D.txt",
+        "graph_completed": true
+      },
+      "created": 1789695757.806441
+    }
+  ]
+}

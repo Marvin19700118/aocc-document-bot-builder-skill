@@ -1,0 +1,4 @@
+interface:
+  display_name: "Document Bot"
+  short_description: "聊天附件知識庫：排隊索引、逐檔通知與附來源問答"
+  default_prompt: "Use $document-bot to manage my local document library."

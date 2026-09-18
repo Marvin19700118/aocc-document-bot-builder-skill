@@ -1,0 +1,6 @@
+sentence-transformers==5.7.0
+sqlite-vec==0.1.9
+pypdf==6.19.0
+python-docx==1.2.0
+transformers==5.17.0
+torch==2.14.0

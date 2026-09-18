@@ -1,0 +1,17 @@
+{
+  "batch_id": "6cd702714a274e60be61cac40b38fea4",
+  "entities": [
+    {"name": "星河公司", "type": "organization", "chunk_id": 29, "evidence": "星河公司開發 Aurora。"},
+    {"name": "Aurora", "type": "product", "chunk_id": 29, "evidence": "星河公司開發 Aurora。Aurora 的資料匯出格式為 JSON 與 CSV。"},
+    {"name": "JSON", "type": "format", "chunk_id": 29, "evidence": "Aurora 的資料匯出格式為 JSON 與 CSV。"},
+    {"name": "CSV", "type": "format", "chunk_id": 29, "evidence": "Aurora 的資料匯出格式為 JSON 與 CSV。"},
+    {"name": "Aurora", "type": "product", "chunk_id": 30, "evidence": "Aurora 客服電話為 02-5555-0100。"},
+    {"name": "02-5555-0100", "type": "contact", "chunk_id": 30, "evidence": "Aurora 客服電話為 02-5555-0100。"}
+  ],
+  "relations": [
+    {"subject": {"name": "星河公司", "type": "organization"}, "predicate": "開發", "object": {"name": "Aurora", "type": "product"}, "chunk_id": 29, "evidence": "星河公司開發 Aurora。"},
+    {"subject": {"name": "Aurora", "type": "product"}, "predicate": "支援匯出", "object": {"name": "JSON", "type": "format"}, "chunk_id": 29, "evidence": "Aurora 的資料匯出格式為 JSON 與 CSV。"},
+    {"subject": {"name": "Aurora", "type": "product"}, "predicate": "支援匯出", "object": {"name": "CSV", "type": "format"}, "chunk_id": 29, "evidence": "Aurora 的資料匯出格式為 JSON 與 CSV。"},
+    {"subject": {"name": "Aurora", "type": "product"}, "predicate": "客服電話", "object": {"name": "02-5555-0100", "type": "contact"}, "chunk_id": 30, "evidence": "Aurora 客服電話為 02-5555-0100。"}
+  ]
+}

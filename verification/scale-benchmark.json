@@ -1,0 +1,16 @@
+{
+  "kind": "synthetic sqlite-vec storage/search; excludes model encoding, document parsing, graph extraction and chat latency",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "documents": 1000,
+  "vectors": 50000,
+  "dimensions": 384,
+  "insert_seconds": 0.8736600000411272,
+  "queries": 100,
+  "self_match_top1": 100,
+  "global_p50_seconds": 0.09831634990405291,
+  "global_p95_seconds": 0.12049439991824329,
+  "scoped_p50_seconds": 0.08589514996856451,
+  "rss_bytes": 120803328,
+  "db_bytes": 79163392
+}
